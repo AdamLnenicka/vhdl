@@ -9,6 +9,7 @@ Design a circuit for receiving data words over an asynchronous serial line (UART
 • The UART_RX circuit will receive individual bits at the input data port DIN, perform their de-serialization, and write the resulting 8-bit word to the data port DOUT. Confirm the validity of the data word on the DOUT port by setting the DOUT_VLD flag to a logic level of 1 for one clock cycle of the CLK signal.
 
 <h2> Project: </h2>
+
 ![image](https://github.com/AdamLnenicka/vhdl/assets/70570107/5259fd65-c804-48c0-b337-8d717ad559e2)
 
 ![image](https://github.com/AdamLnenicka/vhdl/assets/70570107/b2c34e6a-8785-4748-8691-39b70f9ba27a)
